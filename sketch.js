@@ -9,7 +9,7 @@ function setup() {
     canvas.parent('sketch_holder');
     loadTiosSexys();
     s = new Snake();
-    frameRate(10);
+    frameRate(5);
     if (!s.avaricia) {
         food = pickLocation();
     } else {
@@ -81,6 +81,7 @@ function loadTiosSexys() {
     img[7] = loadImage("assets/a3.jpg");
     img[8] = loadImage("assets/a4.jpg");
     img[9] = loadImage("assets/a5.jpg");
+    img[10] = loadImage("assets/a5.jpg");
     // img[0] = loadImage("assets/tia1.jpg");
     // img[1] = loadImage("assets/tia2.jpg");
     // img[2] = loadImage("assets/tia3.jpg");

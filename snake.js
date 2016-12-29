@@ -13,13 +13,13 @@ function Snake() {
 
     this.update = function() {
 
-        if (this.total < 10) {
+        if (this.total < 5) {
             this.mode1();
-        } else if (this.total < 20) {
-            this.mode2();
-        } else if (this.total < 30) {
+        } else if (this.total < 10) {
             this.mode3();
-        } else if (this.total < 40) {
+        } else if (this.total < 15) {
+            this.mode2();
+        } else if (this.total < 20) {
             this.mode4();
         } else if (this.total < 50) {
             this.mode5();
